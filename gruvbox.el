@@ -452,6 +452,12 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ivy-minibuffer-match-face-3               (:foreground gruvbox-faded_orange))
      (ivy-minibuffer-match-face-4               (:foreground gruvbox-faded_yellow))
 
+     ;; orderless
+     (orderless-match-face-0                    (:foreground gruvbox-bright_orange))
+     (orderless-match-face-1                    (:foreground gruvbox-bright_yellow))
+     (orderless-match-face-2                    (:foreground gruvbox-faded_orange))
+     (orderless-match-face-3                    (:foreground gruvbox-faded_yellow))
+
      ;; ido
      (ido-only-match                            (:inherit 'success))
      (ido-first-match                           (:foreground gruvbox-light0_hard :weight 'bold :underline t))
