@@ -333,7 +333,7 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
 
      ;; marginalia
      (marginalia-documentation                  (:italic t :foreground gruvbox-light3))
-     
+
      ;; corfu
      (corfu-background                          (:background gruvbox-dark1))
      (corfu-current                             (:foreground gruvbox-bright_purple :background gruvbox-dark2))
@@ -488,6 +488,10 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (selectrum-current-candidate               (:inherit 'highlight :extend t))
      (selectrum-primary-highlight               (:foreground gruvbox-bright_orange))
      (selectrum-secondary-highlight             (:foreground gruvbox-bright_yellow))
+
+     ;; selectrum-prescient
+     (selectrum-prescient-primary-highlight     (:foreground gruvbox-bright_orange))
+     (selectrum-prescient-secondary-highlight   (:foreground gruvbox-bright_yellow))
 
      ;; orderless
      (orderless-match-face-0                    (:foreground gruvbox-bright_orange))
